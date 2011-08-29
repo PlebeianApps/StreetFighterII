@@ -1,14 +1,14 @@
 //
-//  ChunLiUIViewController.m
+//  RyuUIViewController.m
 //  SFII
 //
 //  Created by Alyssa Reese on 8/28/11.
 //  Copyright 2011 @aaReese. All rights reserved.
 //
 
-#import "ChunLiUIViewController.h"
+#import "RyuUIViewController.h"
 
-@implementation ChunLiUIViewController
+@implementation RyuUIViewController
 
 @synthesize appDelegate;
 @synthesize backButton;

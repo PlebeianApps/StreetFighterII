@@ -1,17 +1,19 @@
 //
-//  ChunLiUIViewController.h
+//  DhalsimUIViewController.h
 //  SFII
 //
 //  Created by Alyssa Reese on 8/28/11.
 //  Copyright 2011 @aaReese. All rights reserved.
 //
 
+
+
 #import <UIKit/UIKit.h>
 #import "SFIIAppDelegate.h"
 
 @class SFIIAppDelegate;
 
-@interface ChunLiUIViewController : UIViewController{    
+@interface DhalsimUIViewController : UIViewController{    
     UIButton *backButton;
     SFIIAppDelegate *appDelegate;
 }

@@ -8,22 +8,30 @@
 
 #import "SFIIAppDelegate.h"
 #import "ChunLiUIViewController.h"
+#import "KenUIViewController.h"
+#import "BlancaUIViewController.h"
+#import "RyuUIViewController.h"
+#import "EhondaUIViewController.h"
+#import "ZangiefUIViewController.h"
+#import "GuileUIViewController.h"
+#import "DhalsimUIViewController.h"
 
 @implementation SFIIAppDelegate
 
 @synthesize window;
 @synthesize homeViewController;
-@synthesize chunLiUIViewController;
-
-@synthesize Ken, Ryu, Chunli, Blanca;
+@synthesize chunLiUIViewController, kenUIViewController, ryuUIViewController, blancaUIViewController, ehondaUIViewController, guileUIViewController, zangiefUIViewController, dhalsimUIViewController;
+@synthesize Ken, Ryu, Chunli, Blanca, Ehonda, Guile, Zangief, Dhalsim;
 
 
 - (IBAction) doKen {
 	window.backgroundColor = [UIColor redColor];
+    self.window.rootViewController = kenUIViewController;
 }
 
 - (IBAction) doRyu {
 	window.backgroundColor = [UIColor greenColor];
+    self.window.rootViewController = ryuUIViewController;
 }
 
 - (IBAction) doChunli {
@@ -32,8 +40,30 @@
 }
 
 - (IBAction) doBlanca {
-	window.backgroundColor = [UIColor whiteColor];    
+	window.backgroundColor = [UIColor whiteColor];  
+    self.window.rootViewController = blancaUIViewController;
 }
+
+- (IBAction) doEhonda {
+	window.backgroundColor = [UIColor yellowColor];  
+    self.window.rootViewController = ehondaUIViewController;
+}
+
+- (IBAction) doZangief {
+	window.backgroundColor = [UIColor purpleColor];  
+    self.window.rootViewController = zangiefUIViewController;
+}
+
+- (IBAction) doGuile {
+	window.backgroundColor = [UIColor orangeColor];  
+    self.window.rootViewController = guileUIViewController;
+}
+
+- (IBAction) doDhalsim {
+	window.backgroundColor = [UIColor redColor];  
+    self.window.rootViewController = dhalsimUIViewController;
+}
+
 
 - (IBAction)showHome {
      self.window.rootViewController = homeViewController;
@@ -49,6 +79,24 @@
     // CHUN LI
     [self setChunLiUIViewController:[[ChunLiUIViewController alloc] initWithNibName:@"ChunLiUIViewController" bundle:nil]];
     [self.chunLiUIViewController setAppDelegate:self];
+    // KEN
+    [self setKenUIViewController:[[KenUIViewController alloc] initWithNibName:@"KenUIViewController" bundle:nil]];
+    [self.kenUIViewController setAppDelegate:self];
+    // BLANCA
+    [self setKenUIViewController:[[BlancaUIViewController alloc] initWithNibName:@"BlancaUIViewController" bundle:nil]];
+    [self.blancaUIViewController setAppDelegate:self];
+    // RYU
+    [self setRyuUIViewController:[[RyuUIViewController alloc] initWithNibName:@"RyuUIViewController" bundle:nil]];
+    [self.ryuUIViewController setAppDelegate:self];
+    // EHONDA
+    [self setEhondaUIViewController:[[EhondaUIViewController alloc] initWithNibName:@"EhondaUIViewController" bundle:nil]];
+    [self.ehondaUIViewController setAppDelegate:self];
+    // ZANGIEF
+    [self setZangiefUIViewController:[[ZangiefUIViewController alloc] initWithNibName:@"ZangiefUIViewController" bundle:nil]];
+    [self.zangiefUIViewController setAppDelegate:self];
+    // DHALSIM
+    [self setDhalsimUIViewController:[[DhalsimUIViewController alloc] initWithNibName:@"DhalsimUIViewController" bundle:nil]];
+    [self.dhalsimUIViewController setAppDelegate:self];
     // SHOW MAIN WINDOW
     [self.window makeKeyAndVisible];    
     return YES;

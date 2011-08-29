@@ -1,14 +1,14 @@
 //
-//  ChunLiUIViewController.m
+//  KenUIViewController.m
 //  SFII
 //
 //  Created by Alyssa Reese on 8/28/11.
 //  Copyright 2011 @aaReese. All rights reserved.
 //
 
-#import "ChunLiUIViewController.h"
+#import "KenUIViewController.h"
 
-@implementation ChunLiUIViewController
+@implementation KenUIViewController
 
 @synthesize appDelegate;
 @synthesize backButton;

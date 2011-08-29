@@ -1,14 +1,14 @@
 //
-//  ChunLiUIViewController.m
+//  EhondaUIViewController.m
 //  SFII
 //
 //  Created by Alyssa Reese on 8/28/11.
 //  Copyright 2011 @aaReese. All rights reserved.
 //
 
-#import "ChunLiUIViewController.h"
+#import "EhondaUIViewController.h"
 
-@implementation ChunLiUIViewController
+@implementation EhondaUIViewController
 
 @synthesize appDelegate;
 @synthesize backButton;

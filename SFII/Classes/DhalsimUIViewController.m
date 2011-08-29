@@ -1,14 +1,14 @@
 //
-//  ChunLiUIViewController.m
+//  DhalsimUIViewController.m
 //  SFII
 //
 //  Created by Alyssa Reese on 8/28/11.
 //  Copyright 2011 @aaReese. All rights reserved.
 //
 
-#import "ChunLiUIViewController.h"
+#import "DhalsimUIViewController.h"
 
-@implementation ChunLiUIViewController
+@implementation DhalsimUIViewController
 
 @synthesize appDelegate;
 @synthesize backButton;

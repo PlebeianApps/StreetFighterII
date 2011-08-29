@@ -15,6 +15,20 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		68D46025140B10E400C2B215 /* ChunLiUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D46023140B10E400C2B215 /* ChunLiUIViewController.m */; };
 		68D46026140B10E400C2B215 /* ChunLiUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68D46024140B10E400C2B215 /* ChunLiUIViewController.xib */; };
+		68D4603C140B399900C2B215 /* KenUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D4603A140B399900C2B215 /* KenUIViewController.m */; };
+		68D4603D140B399900C2B215 /* KenUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68D4603B140B399900C2B215 /* KenUIViewController.xib */; };
+		68D46041140B3D7600C2B215 /* RyuUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D4603F140B3D7600C2B215 /* RyuUIViewController.m */; };
+		68D46042140B3D7600C2B215 /* RyuUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68D46040140B3D7600C2B215 /* RyuUIViewController.xib */; };
+		68D46046140B3D9000C2B215 /* BlancaUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D46044140B3D9000C2B215 /* BlancaUIViewController.m */; };
+		68D46047140B3D9000C2B215 /* BlancaUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68D46045140B3D9000C2B215 /* BlancaUIViewController.xib */; };
+		68D4604B140B3DBE00C2B215 /* EhondaUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D46049140B3DBE00C2B215 /* EhondaUIViewController.m */; };
+		68D4604C140B3DBE00C2B215 /* EhondaUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68D4604A140B3DBE00C2B215 /* EhondaUIViewController.xib */; };
+		68D46050140B3DE600C2B215 /* ZangiefUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D4604E140B3DE600C2B215 /* ZangiefUIViewController.m */; };
+		68D46051140B3DE600C2B215 /* ZangiefUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68D4604F140B3DE600C2B215 /* ZangiefUIViewController.xib */; };
+		68D46055140B3DFD00C2B215 /* GuileUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D46053140B3DFD00C2B215 /* GuileUIViewController.m */; };
+		68D46056140B3DFD00C2B215 /* GuileUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68D46054140B3DFD00C2B215 /* GuileUIViewController.xib */; };
+		68D4605A140B3E1E00C2B215 /* DhalsimUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D46058140B3E1E00C2B215 /* DhalsimUIViewController.m */; };
+		68D4605B140B3E1E00C2B215 /* DhalsimUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68D46059140B3E1E00C2B215 /* DhalsimUIViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +44,27 @@
 		68D46022140B10E400C2B215 /* ChunLiUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChunLiUIViewController.h; sourceTree = "<group>"; };
 		68D46023140B10E400C2B215 /* ChunLiUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChunLiUIViewController.m; sourceTree = "<group>"; };
 		68D46024140B10E400C2B215 /* ChunLiUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChunLiUIViewController.xib; sourceTree = "<group>"; };
+		68D46039140B399900C2B215 /* KenUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KenUIViewController.h; sourceTree = "<group>"; };
+		68D4603A140B399900C2B215 /* KenUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KenUIViewController.m; sourceTree = "<group>"; };
+		68D4603B140B399900C2B215 /* KenUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KenUIViewController.xib; sourceTree = "<group>"; };
+		68D4603E140B3D7600C2B215 /* RyuUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RyuUIViewController.h; sourceTree = "<group>"; };
+		68D4603F140B3D7600C2B215 /* RyuUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RyuUIViewController.m; sourceTree = "<group>"; };
+		68D46040140B3D7600C2B215 /* RyuUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RyuUIViewController.xib; sourceTree = "<group>"; };
+		68D46043140B3D9000C2B215 /* BlancaUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlancaUIViewController.h; sourceTree = "<group>"; };
+		68D46044140B3D9000C2B215 /* BlancaUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlancaUIViewController.m; sourceTree = "<group>"; };
+		68D46045140B3D9000C2B215 /* BlancaUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlancaUIViewController.xib; sourceTree = "<group>"; };
+		68D46048140B3DBE00C2B215 /* EhondaUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EhondaUIViewController.h; sourceTree = "<group>"; };
+		68D46049140B3DBE00C2B215 /* EhondaUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EhondaUIViewController.m; sourceTree = "<group>"; };
+		68D4604A140B3DBE00C2B215 /* EhondaUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EhondaUIViewController.xib; sourceTree = "<group>"; };
+		68D4604D140B3DE600C2B215 /* ZangiefUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZangiefUIViewController.h; sourceTree = "<group>"; };
+		68D4604E140B3DE600C2B215 /* ZangiefUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZangiefUIViewController.m; sourceTree = "<group>"; };
+		68D4604F140B3DE600C2B215 /* ZangiefUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZangiefUIViewController.xib; sourceTree = "<group>"; };
+		68D46052140B3DFD00C2B215 /* GuileUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuileUIViewController.h; sourceTree = "<group>"; };
+		68D46053140B3DFD00C2B215 /* GuileUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuileUIViewController.m; sourceTree = "<group>"; };
+		68D46054140B3DFD00C2B215 /* GuileUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuileUIViewController.xib; sourceTree = "<group>"; };
+		68D46057140B3E1E00C2B215 /* DhalsimUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DhalsimUIViewController.h; sourceTree = "<group>"; };
+		68D46058140B3E1E00C2B215 /* DhalsimUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DhalsimUIViewController.m; sourceTree = "<group>"; };
+		68D46059140B3E1E00C2B215 /* DhalsimUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DhalsimUIViewController.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* SFII-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SFII-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,6 +90,27 @@
 				68D46022140B10E400C2B215 /* ChunLiUIViewController.h */,
 				68D46023140B10E400C2B215 /* ChunLiUIViewController.m */,
 				68D46024140B10E400C2B215 /* ChunLiUIViewController.xib */,
+				68D46039140B399900C2B215 /* KenUIViewController.h */,
+				68D4603A140B399900C2B215 /* KenUIViewController.m */,
+				68D4603B140B399900C2B215 /* KenUIViewController.xib */,
+				68D46043140B3D9000C2B215 /* BlancaUIViewController.h */,
+				68D46044140B3D9000C2B215 /* BlancaUIViewController.m */,
+				68D46045140B3D9000C2B215 /* BlancaUIViewController.xib */,
+				68D4603E140B3D7600C2B215 /* RyuUIViewController.h */,
+				68D4603F140B3D7600C2B215 /* RyuUIViewController.m */,
+				68D46040140B3D7600C2B215 /* RyuUIViewController.xib */,
+				68D46048140B3DBE00C2B215 /* EhondaUIViewController.h */,
+				68D46049140B3DBE00C2B215 /* EhondaUIViewController.m */,
+				68D4604A140B3DBE00C2B215 /* EhondaUIViewController.xib */,
+				68D4604D140B3DE600C2B215 /* ZangiefUIViewController.h */,
+				68D4604E140B3DE600C2B215 /* ZangiefUIViewController.m */,
+				68D4604F140B3DE600C2B215 /* ZangiefUIViewController.xib */,
+				68D46052140B3DFD00C2B215 /* GuileUIViewController.h */,
+				68D46053140B3DFD00C2B215 /* GuileUIViewController.m */,
+				68D46054140B3DFD00C2B215 /* GuileUIViewController.xib */,
+				68D46057140B3E1E00C2B215 /* DhalsimUIViewController.h */,
+				68D46058140B3E1E00C2B215 /* DhalsimUIViewController.m */,
+				68D46059140B3E1E00C2B215 /* DhalsimUIViewController.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -161,6 +217,13 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				68D46026140B10E400C2B215 /* ChunLiUIViewController.xib in Resources */,
+				68D4603D140B399900C2B215 /* KenUIViewController.xib in Resources */,
+				68D46042140B3D7600C2B215 /* RyuUIViewController.xib in Resources */,
+				68D46047140B3D9000C2B215 /* BlancaUIViewController.xib in Resources */,
+				68D4604C140B3DBE00C2B215 /* EhondaUIViewController.xib in Resources */,
+				68D46051140B3DE600C2B215 /* ZangiefUIViewController.xib in Resources */,
+				68D46056140B3DFD00C2B215 /* GuileUIViewController.xib in Resources */,
+				68D4605B140B3E1E00C2B215 /* DhalsimUIViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +237,13 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* SFIIAppDelegate.m in Sources */,
 				68D46025140B10E400C2B215 /* ChunLiUIViewController.m in Sources */,
+				68D4603C140B399900C2B215 /* KenUIViewController.m in Sources */,
+				68D46041140B3D7600C2B215 /* RyuUIViewController.m in Sources */,
+				68D46046140B3D9000C2B215 /* BlancaUIViewController.m in Sources */,
+				68D4604B140B3DBE00C2B215 /* EhondaUIViewController.m in Sources */,
+				68D46050140B3DE600C2B215 /* ZangiefUIViewController.m in Sources */,
+				68D46055140B3DFD00C2B215 /* GuileUIViewController.m in Sources */,
+				68D4605A140B3E1E00C2B215 /* DhalsimUIViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
