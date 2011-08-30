@@ -13,6 +13,7 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		6805607E140C63DA006FFE90 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6805607D140C63DA006FFE90 /* default.png */; };
 		68D46025140B10E400C2B215 /* ChunLiUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D46023140B10E400C2B215 /* ChunLiUIViewController.m */; };
 		68D46026140B10E400C2B215 /* ChunLiUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68D46024140B10E400C2B215 /* ChunLiUIViewController.xib */; };
 		68D4603C140B399900C2B215 /* KenUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D4603A140B399900C2B215 /* KenUIViewController.m */; };
@@ -41,6 +42,7 @@
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* SFII_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFII_Prefix.pch; sourceTree = "<group>"; };
+		6805607D140C63DA006FFE90 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
 		68D46022140B10E400C2B215 /* ChunLiUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChunLiUIViewController.h; sourceTree = "<group>"; };
 		68D46023140B10E400C2B215 /* ChunLiUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChunLiUIViewController.m; sourceTree = "<group>"; };
 		68D46024140B10E400C2B215 /* ChunLiUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChunLiUIViewController.xib; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6805607C140C63DA006FFE90 /* assets */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* SFII-Info.plist */,
 			);
@@ -161,6 +164,14 @@
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6805607C140C63DA006FFE90 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				6805607D140C63DA006FFE90 /* default.png */,
+			);
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +235,7 @@
 				68D46051140B3DE600C2B215 /* ZangiefUIViewController.xib in Resources */,
 				68D46056140B3DFD00C2B215 /* GuileUIViewController.xib in Resources */,
 				68D4605B140B3E1E00C2B215 /* DhalsimUIViewController.xib in Resources */,
+				6805607E140C63DA006FFE90 /* default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
