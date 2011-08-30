@@ -35,6 +35,7 @@
     UIButton *Zangief;
     UIButton *Guile;
     UIButton *Dhalsim;
+    UIButton *character;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
@@ -46,6 +47,7 @@
 @property (nonatomic, retain) IBOutlet UIButton *Zangief;
 @property (nonatomic, retain) IBOutlet UIButton *Guile;
 @property (nonatomic, retain) IBOutlet UIButton *Dhalsim;
+@property (nonatomic, retain) IBOutlet UIButton *character;
 @property (nonatomic, retain) IBOutlet UIViewController *homeViewController;
 @property (nonatomic, retain) IBOutlet ChunLiUIViewController *chunLiUIViewController;
 @property (nonatomic, retain) IBOutlet KenUIViewController *kenUIViewController;

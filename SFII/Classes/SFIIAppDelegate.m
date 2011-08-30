@@ -21,7 +21,7 @@
 @synthesize window;
 @synthesize homeViewController;
 @synthesize chunLiUIViewController, kenUIViewController, ryuUIViewController, blancaUIViewController, ehondaUIViewController, guileUIViewController, zangiefUIViewController, dhalsimUIViewController;
-@synthesize Ken, Ryu, Chunli, Blanca, Ehonda, Guile, Zangief, Dhalsim;
+@synthesize Ken, Ryu, Chunli, Blanca, Ehonda, Guile, Zangief, Dhalsim, character;
 
 
 - (IBAction) doKen {
@@ -83,7 +83,7 @@
     [self setKenUIViewController:[[KenUIViewController alloc] initWithNibName:@"KenUIViewController" bundle:nil]];
     [self.kenUIViewController setAppDelegate:self];
     // BLANCA
-    [self setKenUIViewController:[[BlancaUIViewController alloc] initWithNibName:@"BlancaUIViewController" bundle:nil]];
+    [self setBlancaUIViewController:[[BlancaUIViewController alloc] initWithNibName:@"BlancaUIViewController" bundle:nil]];
     [self.blancaUIViewController setAppDelegate:self];
     // RYU
     [self setRyuUIViewController:[[RyuUIViewController alloc] initWithNibName:@"RyuUIViewController" bundle:nil]];
@@ -91,6 +91,9 @@
     // EHONDA
     [self setEhondaUIViewController:[[EhondaUIViewController alloc] initWithNibName:@"EhondaUIViewController" bundle:nil]];
     [self.ehondaUIViewController setAppDelegate:self];
+    //GUILE
+    [self setGuileUIViewController:[[GuileUIViewController alloc] initWithNibName:@"GuileUIViewController" bundle:nil]];
+    [self.guileUIViewController setAppDelegate:self];
     // ZANGIEF
     [self setZangiefUIViewController:[[ZangiefUIViewController alloc] initWithNibName:@"ZangiefUIViewController" bundle:nil]];
     [self.zangiefUIViewController setAppDelegate:self];
