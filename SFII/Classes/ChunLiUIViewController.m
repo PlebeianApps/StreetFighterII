@@ -13,7 +13,6 @@
 @synthesize appDelegate;
 @synthesize backButton;
 
-
 -(IBAction) showHome {
     [appDelegate showHome];
 }
@@ -40,6 +39,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    CGRect frame = theImageView.frame;
+	frame.size.width = theImageView.image.size.width;
+	frame.size.height = theImageView.image.size.height;
+	theImageView.frame = frame;
+	
+	theScrollView.contentSize = theImageView.image.size;
+
     // Do any additional setup after loading the view from its nib.
 }
 

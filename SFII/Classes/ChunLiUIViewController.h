@@ -12,14 +12,16 @@
 @class SFIIAppDelegate;
 
 @interface ChunLiUIViewController : UIViewController{    
+
     UIButton *backButton;
     SFIIAppDelegate *appDelegate;
+    IBOutlet UIScrollView *theScrollView;
+	IBOutlet UIImageView *theImageView;
 }
 
 @property (nonatomic, retain) IBOutlet UIButton *backButton;
 @property (nonatomic, retain) IBOutlet SFIIAppDelegate *appDelegate;
 
 -(IBAction)showHome;
-
 
 @end
