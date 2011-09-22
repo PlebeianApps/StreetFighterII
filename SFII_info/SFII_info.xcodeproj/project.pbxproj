@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68A1A7F8142B07CC007CC01D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A1A7F7142B07CC007CC01D /* UIKit.framework */; };
+		68A1A7FA142B07CC007CC01D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A1A7F9142B07CC007CC01D /* Foundation.framework */; };
+		68A1A7FC142B07CC007CC01D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A1A7FB142B07CC007CC01D /* CoreGraphics.framework */; };
+		68A1A802142B07CC007CC01D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68A1A800142B07CC007CC01D /* InfoPlist.strings */; };
+		68A1A804142B07CC007CC01D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A1A803142B07CC007CC01D /* main.m */; };
+		68A1A808142B07CC007CC01D /* SFII_infoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A1A807142B07CC007CC01D /* SFII_infoAppDelegate.m */; };
+		68A1A80B142B07CC007CC01D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68A1A809142B07CC007CC01D /* MainWindow.xib */; };
+		68A1A80E142B07CC007CC01D /* SFII_infoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A1A80D142B07CC007CC01D /* SFII_infoViewController.m */; };
+		68A1A811142B07CC007CC01D /* SFII_infoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68A1A80F142B07CC007CC01D /* SFII_infoViewController.xib */; };
+		68A1A819142B07CC007CC01D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A1A818142B07CC007CC01D /* SenTestingKit.framework */; };
+		68A1A81A142B07CC007CC01D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A1A7F7142B07CC007CC01D /* UIKit.framework */; };
+		68A1A81B142B07CC007CC01D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A1A7F9142B07CC007CC01D /* Foundation.framework */; };
+		68A1A81C142B07CC007CC01D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A1A7FB142B07CC007CC01D /* CoreGraphics.framework */; };
+		68A1A824142B07CC007CC01D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68A1A822142B07CC007CC01D /* InfoPlist.strings */; };
+		68A1A826142B07CC007CC01D /* SFII_infoTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 68A1A825142B07CC007CC01D /* SFII_infoTests.h */; };
+		68A1A828142B07CC007CC01D /* SFII_infoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A1A827142B07CC007CC01D /* SFII_infoTests.m */; };
+		68C1B613142B12420082F20A /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B5F8142B12420082F20A /* back.png */; };
+		68C1B614142B12420082F20A /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B5F9142B12420082F20A /* back@2x.png */; };
+		68C1B615142B12420082F20A /* balrog.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B5FA142B12420082F20A /* balrog.png */; };
+		68C1B616142B12420082F20A /* balrog@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B5FB142B12420082F20A /* balrog@2x.png */; };
+		68C1B617142B12420082F20A /* blanka.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B5FC142B12420082F20A /* blanka.png */; };
+		68C1B618142B12420082F20A /* blanka@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B5FD142B12420082F20A /* blanka@2x.png */; };
+		68C1B619142B12420082F20A /* chunli.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B5FE142B12420082F20A /* chunli.png */; };
+		68C1B61A142B12420082F20A /* chunli@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B5FF142B12420082F20A /* chunli@2x.png */; };
+		68C1B61B142B12420082F20A /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B600142B12420082F20A /* default.png */; };
+		68C1B61C142B12420082F20A /* dhalsim.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B601142B12420082F20A /* dhalsim.png */; };
+		68C1B61D142B12420082F20A /* dhalsim@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B602142B12420082F20A /* dhalsim@2x.png */; };
+		68C1B61E142B12420082F20A /* guile.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B603142B12420082F20A /* guile.png */; };
+		68C1B61F142B12420082F20A /* guile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B604142B12420082F20A /* guile@2x.png */; };
+		68C1B620142B12420082F20A /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B605142B12420082F20A /* header.png */; };
+		68C1B621142B12420082F20A /* header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B606142B12420082F20A /* header@2x.png */; };
+		68C1B622142B12420082F20A /* ken.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B607142B12420082F20A /* ken.png */; };
+		68C1B623142B12420082F20A /* ken@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B608142B12420082F20A /* ken@2x.png */; };
+		68C1B624142B12420082F20A /* mbison.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B609142B12420082F20A /* mbison.png */; };
+		68C1B625142B12420082F20A /* mbison@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B60A142B12420082F20A /* mbison@2x.png */; };
+		68C1B626142B12420082F20A /* ryu.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B60B142B12420082F20A /* ryu.png */; };
+		68C1B627142B12420082F20A /* ryu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B60C142B12420082F20A /* ryu@2x.png */; };
+		68C1B628142B12420082F20A /* sagat.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B60D142B12420082F20A /* sagat.png */; };
+		68C1B629142B12420082F20A /* sagat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B60E142B12420082F20A /* sagat@2x.png */; };
+		68C1B62A142B12420082F20A /* vega.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B60F142B12420082F20A /* vega.png */; };
+		68C1B62B142B12420082F20A /* vega@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B610142B12420082F20A /* vega@2x.png */; };
+		68C1B62C142B12420082F20A /* zangief.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B611142B12420082F20A /* zangief.png */; };
+		68C1B62D142B12420082F20A /* zangief@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68C1B612142B12420082F20A /* zangief@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68A1A81D142B07CC007CC01D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68A1A7EA142B07CB007CC01D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68A1A7F2142B07CC007CC01D;
+			remoteInfo = SFII_info;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68A1A7F3142B07CC007CC01D /* SFII_info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFII_info.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A1A7F7142B07CC007CC01D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		68A1A7F9142B07CC007CC01D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68A1A7FB142B07CC007CC01D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		68A1A7FF142B07CC007CC01D /* SFII_info-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFII_info-Info.plist"; sourceTree = "<group>"; };
+		68A1A801142B07CC007CC01D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68A1A803142B07CC007CC01D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68A1A805142B07CC007CC01D /* SFII_info-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SFII_info-Prefix.pch"; sourceTree = "<group>"; };
+		68A1A806142B07CC007CC01D /* SFII_infoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFII_infoAppDelegate.h; sourceTree = "<group>"; };
+		68A1A807142B07CC007CC01D /* SFII_infoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFII_infoAppDelegate.m; sourceTree = "<group>"; };
+		68A1A80A142B07CC007CC01D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		68A1A80C142B07CC007CC01D /* SFII_infoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFII_infoViewController.h; sourceTree = "<group>"; };
+		68A1A80D142B07CC007CC01D /* SFII_infoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFII_infoViewController.m; sourceTree = "<group>"; };
+		68A1A810142B07CC007CC01D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SFII_infoViewController.xib; sourceTree = "<group>"; };
+		68A1A817142B07CC007CC01D /* SFII_infoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFII_infoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A1A818142B07CC007CC01D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		68A1A821142B07CC007CC01D /* SFII_infoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFII_infoTests-Info.plist"; sourceTree = "<group>"; };
+		68A1A823142B07CC007CC01D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68A1A825142B07CC007CC01D /* SFII_infoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFII_infoTests.h; sourceTree = "<group>"; };
+		68A1A827142B07CC007CC01D /* SFII_infoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFII_infoTests.m; sourceTree = "<group>"; };
+		68C1B5F8142B12420082F20A /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		68C1B5F9142B12420082F20A /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		68C1B5FA142B12420082F20A /* balrog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balrog.png; sourceTree = "<group>"; };
+		68C1B5FB142B12420082F20A /* balrog@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balrog@2x.png"; sourceTree = "<group>"; };
+		68C1B5FC142B12420082F20A /* blanka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blanka.png; sourceTree = "<group>"; };
+		68C1B5FD142B12420082F20A /* blanka@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blanka@2x.png"; sourceTree = "<group>"; };
+		68C1B5FE142B12420082F20A /* chunli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chunli.png; sourceTree = "<group>"; };
+		68C1B5FF142B12420082F20A /* chunli@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chunli@2x.png"; sourceTree = "<group>"; };
+		68C1B600142B12420082F20A /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		68C1B601142B12420082F20A /* dhalsim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dhalsim.png; sourceTree = "<group>"; };
+		68C1B602142B12420082F20A /* dhalsim@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dhalsim@2x.png"; sourceTree = "<group>"; };
+		68C1B603142B12420082F20A /* guile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guile.png; sourceTree = "<group>"; };
+		68C1B604142B12420082F20A /* guile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guile@2x.png"; sourceTree = "<group>"; };
+		68C1B605142B12420082F20A /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
+		68C1B606142B12420082F20A /* header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header@2x.png"; sourceTree = "<group>"; };
+		68C1B607142B12420082F20A /* ken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ken.png; sourceTree = "<group>"; };
+		68C1B608142B12420082F20A /* ken@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ken@2x.png"; sourceTree = "<group>"; };
+		68C1B609142B12420082F20A /* mbison.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mbison.png; sourceTree = "<group>"; };
+		68C1B60A142B12420082F20A /* mbison@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mbison@2x.png"; sourceTree = "<group>"; };
+		68C1B60B142B12420082F20A /* ryu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ryu.png; sourceTree = "<group>"; };
+		68C1B60C142B12420082F20A /* ryu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ryu@2x.png"; sourceTree = "<group>"; };
+		68C1B60D142B12420082F20A /* sagat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sagat.png; sourceTree = "<group>"; };
+		68C1B60E142B12420082F20A /* sagat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sagat@2x.png"; sourceTree = "<group>"; };
+		68C1B60F142B12420082F20A /* vega.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vega.png; sourceTree = "<group>"; };
+		68C1B610142B12420082F20A /* vega@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vega@2x.png"; sourceTree = "<group>"; };
+		68C1B611142B12420082F20A /* zangief.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zangief.png; sourceTree = "<group>"; };
+		68C1B612142B12420082F20A /* zangief@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zangief@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68A1A7F0142B07CC007CC01D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A1A7F8142B07CC007CC01D /* UIKit.framework in Frameworks */,
+				68A1A7FA142B07CC007CC01D /* Foundation.framework in Frameworks */,
+				68A1A7FC142B07CC007CC01D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68A1A813142B07CC007CC01D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A1A819142B07CC007CC01D /* SenTestingKit.framework in Frameworks */,
+				68A1A81A142B07CC007CC01D /* UIKit.framework in Frameworks */,
+				68A1A81B142B07CC007CC01D /* Foundation.framework in Frameworks */,
+				68A1A81C142B07CC007CC01D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68A1A7E8142B07CB007CC01D = {
+			isa = PBXGroup;
+			children = (
+				68A1A7FD142B07CC007CC01D /* SFII_info */,
+				68A1A81F142B07CC007CC01D /* SFII_infoTests */,
+				68C1B5F5142B120D0082F20A /* Resources */,
+				68A1A7F6142B07CC007CC01D /* Frameworks */,
+				68A1A7F4142B07CC007CC01D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68A1A7F4142B07CC007CC01D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68A1A7F3142B07CC007CC01D /* SFII_info.app */,
+				68A1A817142B07CC007CC01D /* SFII_infoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68A1A7F6142B07CC007CC01D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68A1A7F7142B07CC007CC01D /* UIKit.framework */,
+				68A1A7F9142B07CC007CC01D /* Foundation.framework */,
+				68A1A7FB142B07CC007CC01D /* CoreGraphics.framework */,
+				68A1A818142B07CC007CC01D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68A1A7FD142B07CC007CC01D /* SFII_info */ = {
+			isa = PBXGroup;
+			children = (
+				68A1A806142B07CC007CC01D /* SFII_infoAppDelegate.h */,
+				68A1A807142B07CC007CC01D /* SFII_infoAppDelegate.m */,
+				68A1A809142B07CC007CC01D /* MainWindow.xib */,
+				68A1A80C142B07CC007CC01D /* SFII_infoViewController.h */,
+				68A1A80D142B07CC007CC01D /* SFII_infoViewController.m */,
+				68A1A80F142B07CC007CC01D /* SFII_infoViewController.xib */,
+				68A1A7FE142B07CC007CC01D /* Supporting Files */,
+			);
+			path = SFII_info;
+			sourceTree = "<group>";
+		};
+		68A1A7FE142B07CC007CC01D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68A1A7FF142B07CC007CC01D /* SFII_info-Info.plist */,
+				68A1A800142B07CC007CC01D /* InfoPlist.strings */,
+				68A1A803142B07CC007CC01D /* main.m */,
+				68A1A805142B07CC007CC01D /* SFII_info-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68A1A81F142B07CC007CC01D /* SFII_infoTests */ = {
+			isa = PBXGroup;
+			children = (
+				68A1A825142B07CC007CC01D /* SFII_infoTests.h */,
+				68A1A827142B07CC007CC01D /* SFII_infoTests.m */,
+				68A1A820142B07CC007CC01D /* Supporting Files */,
+			);
+			path = SFII_infoTests;
+			sourceTree = "<group>";
+		};
+		68A1A820142B07CC007CC01D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68A1A821142B07CC007CC01D /* SFII_infoTests-Info.plist */,
+				68A1A822142B07CC007CC01D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68C1B5F5142B120D0082F20A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68C1B5F7142B12220082F20A /* Assets */,
+			);
+			name = Resources;
+			path = SFII_infoTests;
+			sourceTree = "<group>";
+		};
+		68C1B5F7142B12220082F20A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				68C1B5F8142B12420082F20A /* back.png */,
+				68C1B5F9142B12420082F20A /* back@2x.png */,
+				68C1B5FA142B12420082F20A /* balrog.png */,
+				68C1B5FB142B12420082F20A /* balrog@2x.png */,
+				68C1B5FC142B12420082F20A /* blanka.png */,
+				68C1B5FD142B12420082F20A /* blanka@2x.png */,
+				68C1B5FE142B12420082F20A /* chunli.png */,
+				68C1B5FF142B12420082F20A /* chunli@2x.png */,
+				68C1B600142B12420082F20A /* default.png */,
+				68C1B601142B12420082F20A /* dhalsim.png */,
+				68C1B602142B12420082F20A /* dhalsim@2x.png */,
+				68C1B603142B12420082F20A /* guile.png */,
+				68C1B604142B12420082F20A /* guile@2x.png */,
+				68C1B605142B12420082F20A /* header.png */,
+				68C1B606142B12420082F20A /* header@2x.png */,
+				68C1B607142B12420082F20A /* ken.png */,
+				68C1B608142B12420082F20A /* ken@2x.png */,
+				68C1B609142B12420082F20A /* mbison.png */,
+				68C1B60A142B12420082F20A /* mbison@2x.png */,
+				68C1B60B142B12420082F20A /* ryu.png */,
+				68C1B60C142B12420082F20A /* ryu@2x.png */,
+				68C1B60D142B12420082F20A /* sagat.png */,
+				68C1B60E142B12420082F20A /* sagat@2x.png */,
+				68C1B60F142B12420082F20A /* vega.png */,
+				68C1B610142B12420082F20A /* vega@2x.png */,
+				68C1B611142B12420082F20A /* zangief.png */,
+				68C1B612142B12420082F20A /* zangief@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68A1A7F2142B07CC007CC01D /* SFII_info */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68A1A82B142B07CC007CC01D /* Build configuration list for PBXNativeTarget "SFII_info" */;
+			buildPhases = (
+				68A1A7EF142B07CC007CC01D /* Sources */,
+				68A1A7F0142B07CC007CC01D /* Frameworks */,
+				68A1A7F1142B07CC007CC01D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFII_info;
+			productName = SFII_info;
+			productReference = 68A1A7F3142B07CC007CC01D /* SFII_info.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68A1A816142B07CC007CC01D /* SFII_infoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68A1A82E142B07CC007CC01D /* Build configuration list for PBXNativeTarget "SFII_infoTests" */;
+			buildPhases = (
+				68A1A812142B07CC007CC01D /* Sources */,
+				68A1A813142B07CC007CC01D /* Frameworks */,
+				68A1A814142B07CC007CC01D /* Resources */,
+				68A1A815142B07CC007CC01D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68A1A81E142B07CC007CC01D /* PBXTargetDependency */,
+			);
+			name = SFII_infoTests;
+			productName = SFII_infoTests;
+			productReference = 68A1A817142B07CC007CC01D /* SFII_infoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68A1A7EA142B07CB007CC01D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "@aaReese";
+			};
+			buildConfigurationList = 68A1A7ED142B07CB007CC01D /* Build configuration list for PBXProject "SFII_info" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68A1A7E8142B07CB007CC01D;
+			productRefGroup = 68A1A7F4142B07CC007CC01D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68A1A7F2142B07CC007CC01D /* SFII_info */,
+				68A1A816142B07CC007CC01D /* SFII_infoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68A1A7F1142B07CC007CC01D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A1A802142B07CC007CC01D /* InfoPlist.strings in Resources */,
+				68A1A80B142B07CC007CC01D /* MainWindow.xib in Resources */,
+				68A1A811142B07CC007CC01D /* SFII_infoViewController.xib in Resources */,
+				68C1B613142B12420082F20A /* back.png in Resources */,
+				68C1B614142B12420082F20A /* back@2x.png in Resources */,
+				68C1B615142B12420082F20A /* balrog.png in Resources */,
+				68C1B616142B12420082F20A /* balrog@2x.png in Resources */,
+				68C1B617142B12420082F20A /* blanka.png in Resources */,
+				68C1B618142B12420082F20A /* blanka@2x.png in Resources */,
+				68C1B619142B12420082F20A /* chunli.png in Resources */,
+				68C1B61A142B12420082F20A /* chunli@2x.png in Resources */,
+				68C1B61B142B12420082F20A /* default.png in Resources */,
+				68C1B61C142B12420082F20A /* dhalsim.png in Resources */,
+				68C1B61D142B12420082F20A /* dhalsim@2x.png in Resources */,
+				68C1B61E142B12420082F20A /* guile.png in Resources */,
+				68C1B61F142B12420082F20A /* guile@2x.png in Resources */,
+				68C1B620142B12420082F20A /* header.png in Resources */,
+				68C1B621142B12420082F20A /* header@2x.png in Resources */,
+				68C1B622142B12420082F20A /* ken.png in Resources */,
+				68C1B623142B12420082F20A /* ken@2x.png in Resources */,
+				68C1B624142B12420082F20A /* mbison.png in Resources */,
+				68C1B625142B12420082F20A /* mbison@2x.png in Resources */,
+				68C1B626142B12420082F20A /* ryu.png in Resources */,
+				68C1B627142B12420082F20A /* ryu@2x.png in Resources */,
+				68C1B628142B12420082F20A /* sagat.png in Resources */,
+				68C1B629142B12420082F20A /* sagat@2x.png in Resources */,
+				68C1B62A142B12420082F20A /* vega.png in Resources */,
+				68C1B62B142B12420082F20A /* vega@2x.png in Resources */,
+				68C1B62C142B12420082F20A /* zangief.png in Resources */,
+				68C1B62D142B12420082F20A /* zangief@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68A1A814142B07CC007CC01D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A1A824142B07CC007CC01D /* InfoPlist.strings in Resources */,
+				68A1A826142B07CC007CC01D /* SFII_infoTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68A1A815142B07CC007CC01D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68A1A7EF142B07CC007CC01D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A1A804142B07CC007CC01D /* main.m in Sources */,
+				68A1A808142B07CC007CC01D /* SFII_infoAppDelegate.m in Sources */,
+				68A1A80E142B07CC007CC01D /* SFII_infoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68A1A812142B07CC007CC01D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A1A828142B07CC007CC01D /* SFII_infoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68A1A81E142B07CC007CC01D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68A1A7F2142B07CC007CC01D /* SFII_info */;
+			targetProxy = 68A1A81D142B07CC007CC01D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68A1A800142B07CC007CC01D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68A1A801142B07CC007CC01D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		68A1A809142B07CC007CC01D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68A1A80A142B07CC007CC01D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		68A1A80F142B07CC007CC01D /* SFII_infoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68A1A810142B07CC007CC01D /* en */,
+			);
+			name = SFII_infoViewController.xib;
+			sourceTree = "<group>";
+		};
+		68A1A822142B07CC007CC01D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68A1A823142B07CC007CC01D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68A1A829142B07CC007CC01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68A1A82A142B07CC007CC01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68A1A82C142B07CC007CC01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFII_info/SFII_info-Prefix.pch";
+				INFOPLIST_FILE = "SFII_info/SFII_info-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		68A1A82D142B07CC007CC01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFII_info/SFII_info-Prefix.pch";
+				INFOPLIST_FILE = "SFII_info/SFII_info-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		68A1A82F142B07CC007CC01D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SFII_info.app/SFII_info";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFII_info/SFII_info-Prefix.pch";
+				INFOPLIST_FILE = "SFII_infoTests/SFII_infoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		68A1A830142B07CC007CC01D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SFII_info.app/SFII_info";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFII_info/SFII_info-Prefix.pch";
+				INFOPLIST_FILE = "SFII_infoTests/SFII_infoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68A1A7ED142B07CB007CC01D /* Build configuration list for PBXProject "SFII_info" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68A1A829142B07CC007CC01D /* Debug */,
+				68A1A82A142B07CC007CC01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68A1A82B142B07CC007CC01D /* Build configuration list for PBXNativeTarget "SFII_info" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68A1A82C142B07CC007CC01D /* Debug */,
+				68A1A82D142B07CC007CC01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68A1A82E142B07CC007CC01D /* Build configuration list for PBXNativeTarget "SFII_infoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68A1A82F142B07CC007CC01D /* Debug */,
+				68A1A830142B07CC007CC01D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68A1A7EA142B07CB007CC01D /* Project object */;
+}

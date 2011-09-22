@@ -35,7 +35,6 @@
 }
 
 - (IBAction) doChunli {
-	window.backgroundColor = [UIColor blueColor];
     self.window.rootViewController = chunLiUIViewController;
 }
 

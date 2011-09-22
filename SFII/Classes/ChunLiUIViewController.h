@@ -21,6 +21,10 @@
 
 @property (nonatomic, retain) IBOutlet UIButton *backButton;
 @property (nonatomic, retain) IBOutlet SFIIAppDelegate *appDelegate;
+@property (nonatomic, retain) IBOutlet UIScrollView *theScrollView;
+@property (nonatomic, retain) IBOutlet UIImageView *theImageView;
+@property(nonatomic) CGSize contentSize;
+
 
 -(IBAction)showHome;
 
