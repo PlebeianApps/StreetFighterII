@@ -64,6 +64,15 @@
     [Guile removeFromSuperview];
 }
 
+- (IBAction)doEhonda {
+    scrollEhonda.contentSize = CGSizeMake(320,1250);
+    [Startup addSubview:Ehonda];
+}
+
+- (IBAction)backEhonda {
+    [Ehonda removeFromSuperview];
+}
+
 - (IBAction)doKen {
     scrollKen.contentSize = CGSizeMake(320,1250);
     [Startup addSubview:Ken];

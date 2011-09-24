@@ -21,7 +21,9 @@
     IBOutlet UIScrollView *scrollSagat;
     IBOutlet UIScrollView *scrollVega;
     IBOutlet UIScrollView *scrollZangief;
+    IBOutlet UIScrollView *scrollEhonda;
     IBOutlet UIView *Chunli;
+    IBOutlet UIView *Ehonda;
     IBOutlet UIView *Ryu;
     IBOutlet UIView *Dhalsim;
     IBOutlet UIView *Guile;
@@ -56,6 +58,8 @@
 -(IBAction)backVega;
 -(IBAction)doZangief;
 -(IBAction)backZangief;
+-(IBAction)doEhonda;
+-(IBAction)backEhonda;
 
 
 @end
