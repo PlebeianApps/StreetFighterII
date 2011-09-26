@@ -1,227 +1,0 @@
-TSFII
-v7
-r0
-t334168698.674980
-cCheck dependencies
-cProcessInfoPlistFile /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app/Info.plist SFII-Info.plist
-cCompileXIB /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/MainWindow.xib
-cCompileXIB /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/../../../../../../../Documents/StreetFighterII/ChunLi.xib
-cProcessPCH /var/folders/zq/sth1fnw92gb10ywp0nyjjvw40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SFII_Prefix-bzqporexvcavbnemdmbpjtwwfuqt/SFII_Prefix.pch.gch SFII_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SFII.build/Debug-iphonesimulator/SFII.build/Objects-normal/i386/main.o /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SFII.build/Debug-iphonesimulator/SFII.build/Objects-normal/i386/SFIIAppDelegate.o /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/Classes/SFIIAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app/SFII normal i386
-cGenerateDSYMFile /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app.dSYM /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app/SFII
-cTouch /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CC128950000000000000110
-t1287727253
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CC12883000000000074D7B0
-t1287727235
-s7657392
-
-N/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/../../../../../../../Documents/StreetFighterII/ChunLi.xib
-c000000004E3A25220000000000006A90
-t1312433442
-s27280
-
-N/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/Classes/SFIIAppDelegate.h
-c000000004E3A450600000000000002A7
-t1312441606
-s679
-i<UIKit/UIKit.h>
-
-N/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/Classes/SFIIAppDelegate.m
-c000000004E3A4B120000000000000B03
-t1312443154
-s2819
-i"SFIIAppDelegate.h"
-
-N/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/MainWindow.xib
-c000000004E3A464E0000000000009C43
-t1312441934
-s40003
-
-N/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/SFII_Prefix.pch
-c000000004E3A444900000000000000B1
-t1312441417
-s177
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app
-t1312443157
-s238
-
-N/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app.dSYM
-t1312443157
-s102
-
-N/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app/ChunLi.nib
-t1312442651
-s1836
-
-N/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app/Info.plist
-t1312441606
-s579
-
-N/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app/MainWindow.nib
-t1312441954
-s2675
-
-N/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app/PkgInfo
-t1312441606
-s8
-
-N/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app/SFII
-t1312443157
-s17432
-
-N/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/Objects-normal/i386/SFII.LinkFileList
-c000000004E3A4506000000000000012F
-t1312441606
-s303
-
-N/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/Objects-normal/i386/SFIIAppDelegate.o
-t1312443156
-s56264
-
-N/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/Objects-normal/i386/main.o
-t1312441607
-s6364
-
-N/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/main.m
-c000000004E3A4449000000000000015C
-t1312441417
-s348
-i<UIKit/UIKit.h>
-
-N/var/folders/zq/sth1fnw92gb10ywp0nyjjvw40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SFII_Prefix-bzqporexvcavbnemdmbpjtwwfuqt/SFII_Prefix.pch.gch
-t1312441607
-s15453392
-
-NSFII-Info.plist
-c000000004E3A4449000000000000038D
-t1312441417
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies334168698#334168698#0(0"0(0#1#0"4539180352#0"0#
-
-CCompileC build/SFII.build/Debug-iphonesimulator/SFII.build/Objects-normal/i386/SFIIAppDelegate.o /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/Classes/SFIIAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s334135954.873385
-e334135956.791157
-r1
-xCompileC
-xbuild/SFII.build/Debug-iphonesimulator/SFII.build/Objects-normal/i386/SFIIAppDelegate.o
-x/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/Classes/SFIIAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@102"Compile /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/Classes/SFIIAppDelegate.m334135954#334135956#0(0"0(0#0#94"/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/Classes/SFIIAppDelegate.m4659662480#2210"    cd /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/SFII-generated-files.hmap -I/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/SFII-own-target-headers.hmap -I/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/SFII-all-target-headers.hmap -iquote /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/SFII-project-headers.hmap -F/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator -I/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/include -I/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/DerivedSources/i386 -I/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/DerivedSources -include /var/folders/zq/sth1fnw92gb10ywp0nyjjvw40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SFII_Prefix-bzqporexvcavbnemdmbpjtwwfuqt/SFII_Prefix.pch -c /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/Classes/SFIIAppDelegate.m -o /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/Objects-normal/i386/SFIIAppDelegate.o0#
-
-CCompileC build/SFII.build/Debug-iphonesimulator/SFII.build/Objects-normal/i386/main.o /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s334134407.682600
-e334134407.770516
-r1
-xCompileC
-xbuild/SFII.build/Debug-iphonesimulator/SFII.build/Objects-normal/i386/main.o
-x/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/main.m334134407#334134407#0(0"0(0#0#75"/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/main.m4665081488#2180"    cd /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/SFII-generated-files.hmap -I/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/SFII-own-target-headers.hmap -I/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/SFII-all-target-headers.hmap -iquote /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/SFII-project-headers.hmap -F/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator -I/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/include -I/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/DerivedSources/i386 -I/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/DerivedSources -include /var/folders/zq/sth1fnw92gb10ywp0nyjjvw40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SFII_Prefix-bzqporexvcavbnemdmbpjtwwfuqt/SFII_Prefix.pch -c /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/main.m -o /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/../../../../../../../Documents/StreetFighterII/ChunLi.xib
-s334135450.200552
-e334135451.631991
-r1
-xCompileXIB
-x/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/../../../../../../../Documents/StreetFighterII/ChunLi.xib
-o/* com.apple.ibtool.document.warnings */
-o/Users/id/Documents/StreetFighterII/ChunLi.xib:10: warning: This bar button item's style is set to 'plain'. This configuration is not supported when in a navigation item.
-lSLF07#2@68"CompileXIB ../../../../../../../Documents/StreetFighterII/ChunLi.xib334135450#334135451#0(212"/* com.apple.ibtool.document.warnings *//Users/id/Documents/StreetFighterII/ChunLi.xib:10: warning: This bar button item's style is set to 'plain'. This configuration is not supported when in a navigation item.1(22@110"This bar button item's style is set to 'plain'. This configuration is not supported when in a navigation item.334135451#18446744073709551615#0#0(6@46"/Users/id/Documents/StreetFighterII/ChunLi.xib334126242#10#0#10#0#0"0(0#0#126"/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/../../../../../../../Documents/StreetFighterII/ChunLi.xib4664577680#696"    cd /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app/ChunLi.nib /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/../../../../../../../Documents/StreetFighterII/ChunLi.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CCompileXIB /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/MainWindow.xib
-s334134753.092333
-e334134754.122105
-r1
-xCompileXIB
-x/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib334134753#334134754#0(0"0(0#0#83"/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/MainWindow.xib4560739984#657"    cd /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app/MainWindow.nib /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
-
-CGenerateDSYMFile /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app.dSYM /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app/SFII
-s334135957.451896
-e334135957.523843
-r1
-xGenerateDSYMFile
-x/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app.dSYM
-x/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app/SFII
-lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/SFII.app.dSYM build/Debug-iphonesimulator/SFII.app/SFII334135957#334135957#0(0"0(0#0#110"/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app/SFII4659662480#464"    cd /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app/SFII -o /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app.dSYM0#
-
-CLd /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app/SFII normal i386
-s334135956.791257
-e334135957.451816
-r1
-xLd
-x/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app/SFII
-xnormal
-xi386
-lSLF07#2@115"Link /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app/SFII334135956#334135957#0(0"0(0#0#0"4659662480#1035"    cd /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator -F/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator -filelist /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/Objects-normal/i386/SFII.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app/SFII0#
-
-CProcessInfoPlistFile /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app/Info.plist SFII-Info.plist
-s334134406.215576
-e334134406.218676
-r1
-xProcessInfoPlistFile
-x/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app/Info.plist
-xSFII-Info.plist
-lSLF07#2@23"Process SFII-Info.plist334134406#334134406#0(0"0(0#0#84"/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/SFII-Info.plist4665081600#560"    cd /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SFII-Info.plist -genpkginfo /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app/Info.plist0#
-
-CProcessPCH /var/folders/zq/sth1fnw92gb10ywp0nyjjvw40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SFII_Prefix-bzqporexvcavbnemdmbpjtwwfuqt/SFII_Prefix.pch.gch SFII_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s334134406.581081
-e334134407.682513
-r1
-xProcessPCH
-x/var/folders/zq/sth1fnw92gb10ywp0nyjjvw40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SFII_Prefix-bzqporexvcavbnemdmbpjtwwfuqt/SFII_Prefix.pch.gch
-xSFII_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile SFII_Prefix.pch334134406#334134407#0(0"0(0#0#84"/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/SFII_Prefix.pch4665081488#2045"    cd /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/SFII-generated-files.hmap -I/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/SFII-own-target-headers.hmap -I/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/SFII-all-target-headers.hmap -iquote /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/SFII-project-headers.hmap -F/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator -I/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/include -I/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/DerivedSources/i386 -I/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/SFII.build/Debug-iphonesimulator/SFII.build/DerivedSources -c /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/SFII_Prefix.pch -o /var/folders/zq/sth1fnw92gb10ywp0nyjjvw40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/SFII_Prefix-bzqporexvcavbnemdmbpjtwwfuqt/SFII_Prefix.pch.gch0#
-
-CTouch /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app
-s334135957.523990
-e334135957.543058
-r1
-xTouch
-x/Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app
-lSLF07#2@111"Touch /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app334135957#334135957#0(0"0(0#0#0"4659662480#335"    cd /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/id/Personal/Work/DesignJobs/Plebeian/Art/StreetFighterII/SFII/build/Debug-iphonesimulator/SFII.app0#
-
