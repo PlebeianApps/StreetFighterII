@@ -417,7 +417,9 @@
 					<reference key="NSCustomColorSpace" ref="736190287"/>
 				</object>
 				<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
-				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
+				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics">
+					<int key="IBUIStatusBarStyle">2</int>
+				</object>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 			</object>
 			<object class="IBUIView" id="27066810">
@@ -2974,7 +2976,7 @@
 				<string>{100, 97}</string>
 				<string>{320, 1437}</string>
 				<string>{100, 98}</string>
-				<string>{320, 1436}</string>
+				<string>{320, 1437}</string>
 				<string>{100, 97}</string>
 				<string>{320, 1437}</string>
 				<string>{100, 97}</string>
