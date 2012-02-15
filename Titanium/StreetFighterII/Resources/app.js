@@ -26,6 +26,15 @@ var imageView1 = Titanium.UI.createImageView({
 });
 view0.add(imageView1);
 
+var imageView3 = Titanium.UI.createImageView({
+    width: 320,
+    height: 44,
+    top: 0,
+    image: 'images/header.png'
+});
+view0.add(imageView3);
+
+//**This section adds all the thumbnail buttons to the main homescreen.**
 var button2 = Titanium.UI.createButton({
     left: 110,
     top: 52,
@@ -41,14 +50,6 @@ button2.addEventListener('click', function()
   Chunli.open();  // write the code here
 });
 view0.add(button2);
-
-var imageView3 = Titanium.UI.createImageView({
-    width: 320,
-    height: 44,
-    top: 0,
-    image: 'images/header.png'
-});
-view0.add(imageView3);
 
 var button4 = Titanium.UI.createButton({
     left: 110,
@@ -292,6 +293,7 @@ Ryu.addEventListener('android:back', function() {
     Ryu.close();
 });
 
+//**This is the section that includes all the custom scroll views with special moves of each character.**
 // Custom View
 var Blanka = Titanium.UI.createWindow({
     top: 0,

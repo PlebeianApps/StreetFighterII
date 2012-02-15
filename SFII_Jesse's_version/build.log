@@ -1,0 +1,30 @@
+Logfile initialized
+[INFO] logfile = /Users/jseav19/Documents/Titanium Studio Workspace/SFII/build.log
+[DEBUG] /Users/jseav19/Library/Application Support/Titanium/mobilesdk/osx/1.8.0.1/android/builder.py simulator SFII /Users/jseav19/android-sdk-macosx /Users/jseav19/Documents/Titanium Studio Workspace/SFII com.plebeianapps.sfii1 15 WVGA854 
+[INFO] Building SFII for Android ... one moment
+[INFO] Titanium SDK version: 1.8.0.1 (12/22/11 13:09 fbdc96f)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.015748 seconds on emulator to get ready
+[DEBUG] com.plebeianapps.sfii1 installed? True
+[INFO] Fastdev server running, deploying in Fastdev mode
+[INFO] Copying project resources..
+[INFO] Tiapp.xml unchanged, skipping class generation
+[DEBUG] Processing Android resource drawables
+[DEBUG] found drawable-long-land-hdpi splash screen at /Users/jseav19/Documents/Titanium Studio Workspace/SFII/Resources/android/images/res-long-land-hdpi/default.png
+[DEBUG] found drawable-long-land-ldpi splash screen at /Users/jseav19/Documents/Titanium Studio Workspace/SFII/Resources/android/images/res-long-land-ldpi/default.png
+[DEBUG] found drawable-long-port-hdpi splash screen at /Users/jseav19/Documents/Titanium Studio Workspace/SFII/Resources/android/images/res-long-port-hdpi/default.png
+[DEBUG] found drawable-long-port-ldpi splash screen at /Users/jseav19/Documents/Titanium Studio Workspace/SFII/Resources/android/images/res-long-port-ldpi/default.png
+[DEBUG] found drawable-notlong-land-hdpi splash screen at /Users/jseav19/Documents/Titanium Studio Workspace/SFII/Resources/android/images/res-notlong-land-hdpi/default.png
+[DEBUG] found drawable-notlong-land-ldpi splash screen at /Users/jseav19/Documents/Titanium Studio Workspace/SFII/Resources/android/images/res-notlong-land-ldpi/default.png
+[DEBUG] found drawable-notlong-land-mdpi splash screen at /Users/jseav19/Documents/Titanium Studio Workspace/SFII/Resources/android/images/res-notlong-land-mdpi/default.png
+[DEBUG] found drawable-notlong-port-hdpi splash screen at /Users/jseav19/Documents/Titanium Studio Workspace/SFII/Resources/android/images/res-notlong-port-hdpi/default.png
+[DEBUG] found drawable-notlong-port-ldpi splash screen at /Users/jseav19/Documents/Titanium Studio Workspace/SFII/Resources/android/images/res-notlong-port-ldpi/default.png
+[DEBUG] found drawable-notlong-port-mdpi splash screen at /Users/jseav19/Documents/Titanium Studio Workspace/SFII/Resources/android/images/res-notlong-port-mdpi/default.png
+[INFO] Waiting for SDCard to become available..
+[INFO] Re-launching application ... SFII
+[INFO] Launching application ... SFII
+[TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.plebeianapps.sfii1/.SfiiActivity }
+
+[INFO] Relaunched SFII ... Application should be running.
